@@ -1,0 +1,19 @@
+Different Types of Test
+1. Unit Test
+2. Integration Test
+3. End to End Test
+
+
+Unit Test:
+Small individual test. 
+eg: test a simple function
+
+
+Integration Test:
+Test with dependencies
+eg: test function that call another function 
+
+
+End to End Test:
+Complete test
+eg: automate browser test
