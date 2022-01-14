@@ -1,3 +1,15 @@
+Testing:
+Testing is the process of evaluating and verifying that a software product or application does what it is supposed to do. The benefits of testing include preventing bugs, reducing development costs and improving performance. Developers are also supposed to write test friendly code. 
+
+Why Test:
+1. Get an error if code breaks
+2. Think about possible issues & bugs
+3. Integrate to built workflow
+4. Break up complex dependencies
+5. Improve code
+6. Save time
+
+
 Different Types of Test
 1. Unit Test
 2. Integration Test
@@ -5,15 +17,23 @@ Different Types of Test
 
 
 Unit Test:
-Small individual test. 
+Small individual test. It's fully isolated.  Need to write many unit test. Easy to write.
 eg: test a simple function
 
 
 Integration Test:
-Test with dependencies
+Test with dependencies.  Comparatively Integration Test in an application will be less that Unit test. Most of them are combination of Unit tests.
 eg: test function that call another function 
 
 
 End to End Test:
-Complete test
+Complete test. Need to write very few in an application. Need when programmer think about ultimate results. It's full flow
 eg: automate browser test
+
+
+How to Test:
+1. Test Runner: Which   runs the test & gives results. eg: mocha
+2. Assertion Library: Sets testing conditions, matches & logics. eg: chai
+3. Headless Browser: Simulates the activity. eg: Puppeteer
+
+note: We can use Jest to run our test , it's like a combination of mocha and chai.
